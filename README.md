@@ -27,3 +27,5 @@ This project is licensed under the [MIT License](LICENSE). By contributing to th
 If you have any questions, suggestions, or concerns regarding the Australia4Palestine website or this repository, please don't hesitate to contact us at [your-email@example.com].
 
 Thank you for your interest and support!
+
+[![Ceasefire Now](https://badge.techforpalestine.org/default)](https://techforpalestine.org/learn-more)
