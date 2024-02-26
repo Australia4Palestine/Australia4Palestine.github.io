@@ -32,14 +32,14 @@
         }
 
         .flag {
-            max-width: 200px;
+            max-width: 100%;
             margin-top: 20px;
         }
 
         .map-link {
-            display: inline-block;
+            display: block;
             margin-top: 20px;
-            padding: 10px 20px;
+            padding: 15px 30px;
             background-color: #007bff;
             color: #fff;
             text-decoration: none;
@@ -49,6 +49,12 @@
 
         .map-link:hover {
             background-color: #0056b3;
+        }
+
+        @media (max-width: 600px) {
+            .flag {
+                max-width: 80%;
+            }
         }
     </style>
 </head>
