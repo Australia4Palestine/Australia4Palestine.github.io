@@ -56,8 +56,9 @@ var pinIcon = L.icon({
 });
 
 // Parse CSV data and add markers to the map
-Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vR1_69lZekJC45D2YJUOfLNwf0To7PMKm6aPNqqZkkkV4_wbtSqOChVDR9ZLe0yLZRWy1qd8mZ5f9HR/pub?output=csv", {
-    download: true,
+//Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vR1_69lZekJC45D2YJUOfLNwf0To7PMKm6aPNqqZkkkV4_wbtSqOChVDR9ZLe0yLZRWy1qd8mZ5f9HR/pub?output=csv", {
+Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vR1_69lZekJC45D2YJUOfLNwf0To7PMKm6aPNqqZkkkV4_wbtSqOChVDR9ZLe0yLZRWy1qd8mZ5f9HR/pub?gid=1833372983&single=true&output=csv", {
+download: true,
     header: true,
     complete: function (results) {
         results.data.forEach(function (row) {
