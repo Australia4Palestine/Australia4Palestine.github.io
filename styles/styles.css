@@ -1,0 +1,79 @@
+/* styles.css */
+#map {
+    height: 100%;
+    max-width: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif; /* Use a web-safe font */
+}
+
+html, body, #map {
+    height: 100%;
+    width: 100%;
+}
+
+/* Additional responsive styles */
+@media only screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens (e.g., smartphones) */
+    /* You can add specific styles here to improve the mobile experience */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.links-container {
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.link:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .link {
+        margin: 0 5px;
+        padding: 8px 15px;
+    }
+}
+
