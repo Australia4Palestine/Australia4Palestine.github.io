@@ -42,7 +42,7 @@ map.on('locationerror', onLocationError);
 // Define a custom marker icon with a watermelon image
 var watermelonIcon = L.icon({
     iconUrl: 'images/watermelon-icon.png', // URL to the watermelon image file
-    iconSize: [40, 40], // Size of the icon
+    iconSize: [30, 30], // Size of the icon
     iconAnchor: [20, 40], // Point of the icon which corresponds to marker's location
     popupAnchor: [0, -40] // Point from which the popup should open relative to the iconAnchor
 });
