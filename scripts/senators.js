@@ -55,8 +55,8 @@ var pinIcon = L.icon({
     popupAnchor: [0, -40] // Point from which the popup should open relative to the iconAnchor
 });
 
-/* // Parse CSV data and add markers to the map
-Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vR1_69lZekJC45D2YJUOfLNwf0To7PMKm6aPNqqZkkkV4_wbtSqOChVDR9ZLe0yLZRWy1qd8mZ5f9HR/pub?output=csv", {
+// Parse CSV data and add markers to the map
+Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vR1_69lZekJC45D2YJUOfLNwf0To7PMKm6aPNqqZkkkV4_wbtSqOChVDR9ZLe0yLZRWy1qd8mZ5f9HR/pub?gid=278551651&single=true&output=csv", {
     download: true,
     header: true,
     complete: function (results) {
@@ -67,18 +67,18 @@ Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vR1_69lZekJC45D2YJUO
             if (row.Voted == 'Yes') {
                 // Create a marker with a popup showing MP's information
                 L.marker([latitude, longitude], { icon: watermelonIcon })
-                    .bindPopup('<b>' + row['Honorific'] + ' ' + row['Surname'] + ', ' + row['First Name'] + '</b><br>' +
-                        'Electorate: ' + row['Electorate'] + '<br>' +
+                    .bindPopup('<b>' + row['Surname'] + ', ' + row['First Name'] + '</b><br>' +
+                        'Electorate Suburb: ' + row['Electorate Suburb'] + '<br>' +
                         'Political Party: ' + row['Political Party'])
                     .addTo(map);
             } else {
                 // Create a marker with a popup showing MP's information
                 L.marker([latitude, longitude], { icon: pinIcon })
-                    .bindPopup('<b>' + row['Honorific'] + ' ' + row['Surname'] + ', ' + row['First Name'] + '</b><br>' +
-                        'Electorate: ' + row['Electorate'] + '<br>' +
+                    .bindPopup('<b>' +  row['Surname'] + ', ' + row['First Name'] + '</b><br>' +
+                        'Electorate Suburb: ' + row['Electorate Suburb'] + '<br>' +
                         'Political Party: ' + row['Political Party'])
                     .addTo(map);
             }
         });
     }
-}); */
+});

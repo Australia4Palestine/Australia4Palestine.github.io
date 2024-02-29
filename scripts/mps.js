@@ -68,14 +68,14 @@ download: true,
             if (row.Voted == 'Yes') {
                 // Create a marker with a popup showing MP's information
                 L.marker([latitude, longitude], { icon: watermelonIcon })
-                    .bindPopup('<b>' + row['Honorific'] + ' ' + row['Surname'] + ', ' + row['First Name'] + '</b><br>' +
+                    .bindPopup('<b>' +  row['Surname'] + ', ' + row['First Name'] + '</b><br>' +
                         'Electorate: ' + row['Electorate'] + '<br>' +
                         'Political Party: ' + row['Political Party'])
                     .addTo(map);
             } else {
                 // Create a marker with a popup showing MP's information
                 L.marker([latitude, longitude], { icon: pinIcon })
-                    .bindPopup('<b>' + row['Honorific'] + ' ' + row['Surname'] + ', ' + row['First Name'] + '</b><br>' +
+                    .bindPopup('<b>'+ row['Surname'] + ', ' + row['First Name'] + '</b><br>' +
                         'Electorate: ' + row['Electorate'] + '<br>' +
                         'Political Party: ' + row['Political Party'])
                     .addTo(map);
