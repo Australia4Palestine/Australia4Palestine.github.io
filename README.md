@@ -17,10 +17,12 @@ Welcome to Australia4Palestine! This project is dedicated to showcasing Australi
 - [PapaParse](https://www.papaparse.com/) - JavaScript library for parsing CSV data.
 - [Tech4Palestine](https://tfpb.techforpalestine.org/lib/banner.min.js) - A banner library.
 - [Geocoding by SmartMonkey Add-on](https://www.smartmonkey.io/) - Geocoding tool used for obtaining location data.
+- [Vector Icons and Stickers - PNG, SVG, EPS, PSD and CSS](https://www.flaticon.com/) for icons.
 
 ### Data Sources
 - [OpenStreetMap](https://www.openstreetmap.org/) - Map data.
 - [Parliament of Australia](https://www.aph.gov.au/Senators_and_Members/Guidelines_for_Contacting_Senators_and_Members/Address_labels_and_CSV_files) - Data source for Members and Senators details.
+-[Members of Parliament (Both Houses)](https://www.parliament.nsw.gov.au/members/downloadables/Pages/Members-of-Parliament-Both-Houses.aspx)
 
 ### Inspiration and References
 - [Hands-On Data Visualization with Leaflet](https://handsondataviz.org/leaflet.html) - Tutorials for learning Leaflet.
